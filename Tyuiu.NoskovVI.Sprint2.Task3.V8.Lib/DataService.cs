@@ -8,7 +8,7 @@ namespace Tyuiu.NoskovVI.Sprint2.Task3.V8.Lib
             double y = 0;
             if (x > 0)
             {
-               y = Math.Sin(x) + Math.Cos(x) / Math.Cos(x) - Math.Sin(x);
+               y = (Math.Sin(x) + Math.Cos(x)) / (Math.Cos(x) - Math.Sin(x));
             }
             else if (x == 0)
             {
