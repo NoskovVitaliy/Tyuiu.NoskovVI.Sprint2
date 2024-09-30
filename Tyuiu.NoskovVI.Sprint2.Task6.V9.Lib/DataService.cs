@@ -9,7 +9,7 @@ namespace Tyuiu.NoskovVI.Sprint2.Task6.V9.Lib
             {
                 m++;
             }
-            if (n < 9)
+            if ((n < 9) || (m % 2 == 0 && n == 30) || (m % 2 != 0 && n == 31) || (m == 3 && n == 28))
             {
                 switch (m)
                 {
