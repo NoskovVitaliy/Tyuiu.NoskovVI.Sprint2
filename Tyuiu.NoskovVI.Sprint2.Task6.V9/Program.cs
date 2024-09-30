@@ -29,7 +29,7 @@ namespace Tyuiu.NoskovVI.Sprint2.Task6.V9
             Console.WriteLine("Введите номер дня: ");
             Day = Convert.ToInt32(Console.ReadLine());
 
-            if ((Month > 12 || Day>31) || (Month % 2 != 0 && Day == 31))
+            if ((Month > 12 || Day>31) || (Month % 2 != 0 && Day == 31) || (Month == 2 && Day > 28))
             {
                 Console.WriteLine("Такой даты не сушествует.");
             }
