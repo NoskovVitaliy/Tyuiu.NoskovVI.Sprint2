@@ -9,7 +9,7 @@ namespace Tyuiu.NoskovVI.Sprint2.Task6.V9.Lib
             {
                 m++;
             }
-            if (n < 10)
+            if (n < 9)
             {
                 switch (m)
                 {
