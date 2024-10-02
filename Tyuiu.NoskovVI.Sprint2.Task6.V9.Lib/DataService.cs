@@ -32,7 +32,7 @@ namespace Tyuiu.NoskovVI.Sprint2.Task6.V9.Lib
             {
                 switch (m)
                 {
-                    case 1: return $"{n + 1}.0{m}";
+                    case 1: return $"{n+1}.0{m}";
                     case 2: return $"{n % 30 + 1}.0{m}";
                     case 3: return $"{n % 28 + 1}.0{m}";
                     case 4: return $"{n % 30 + 1}.0{m}";
